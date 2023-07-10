@@ -1,13 +1,14 @@
-import { ThemeProvider } from 'styled-components/dist/base'
+import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from './styles/global'
 import { defaultTheme } from './styles/themes/default'
+import { Transactions } from './pages/Transactions'
 
 export function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <GlobalStyle />
 
-      <h1>eai</h1>
+      <Transactions />
     </ThemeProvider>
   )
 }
