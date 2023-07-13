@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-07-13T00:10:26.432Z"
+    },
+    {
+      "id": 3,
+      "description": "Despesas domésticas",
+      "type": "outcome",
+      "category": "Limpeza",
+      "price": 300,
+      "createdAt": "2023-07-12T00:10:26.432Z"
     }
   ]
 }
