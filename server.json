@@ -23,6 +23,22 @@
       "category": "Limpeza",
       "price": 300,
       "createdAt": "2023-07-12T00:10:26.432Z"
+    },
+    {
+      "description": "sdgsdg",
+      "price": 44,
+      "category": "dfghdfh",
+      "type": "income",
+      "createdAt": "2023-07-19T19:36:16.160Z",
+      "id": 4
+    },
+    {
+      "description": "show Lucas Inutilismo",
+      "price": 90,
+      "category": "lazer",
+      "type": "outcome",
+      "createdAt": "2023-07-19T19:49:20.268Z",
+      "id": 5
     }
   ]
 }
