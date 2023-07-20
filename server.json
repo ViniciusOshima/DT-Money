@@ -25,14 +25,6 @@
       "createdAt": "2023-07-12T00:10:26.432Z"
     },
     {
-      "description": "sdgsdg",
-      "price": 44,
-      "category": "dfghdfh",
-      "type": "income",
-      "createdAt": "2023-07-19T19:36:16.160Z",
-      "id": 4
-    },
-    {
       "description": "show Lucas Inutilismo",
       "price": 90,
       "category": "lazer",
@@ -41,11 +33,11 @@
       "id": 5
     },
     {
-      "description": "sfghsfgj",
-      "price": 4,
-      "category": "lazer",
-      "type": "outcome",
-      "createdAt": "2023-07-20T22:04:38.172Z",
+      "description": "Venda o celular",
+      "price": 2000,
+      "category": "venda",
+      "type": "income",
+      "createdAt": "2023-07-20T23:34:28.803Z",
       "id": 6
     }
   ]
