@@ -8,10 +8,12 @@ import {
   TransactionsContainer,
   TransactionsTable,
 } from './styles'
-import { useContext } from 'react'
+import { useContextSelector } from 'use-context-selector'
 
 export function Transactions() {
-  const { transactions } = useContext(TransactionsContext)
+  const transactions = useContextSelector(TransactionsContext, (context) => {
+    return context.transactions
+  })
 
   return (
     <div>
@@ -25,21 +27,19 @@ export function Transactions() {
           <tbody>
             {transactions.map((transaction) => {
               return (
-                <>
-                  <tr key={transaction.id}>
-                    <td width="50%">{transaction.description}</td>
-                    <td>
-                      <PriceHighlight variant={transaction.type}>
-                        {transaction.type === 'outcome' && '- '}
-                        {priceFormatter.format(transaction.price)}
-                      </PriceHighlight>
-                    </td>
-                    <td>{transaction.category}</td>
-                    <td>
-                      {dateFormatter.format(new Date(transaction.createdAt))}
-                    </td>
-                  </tr>
-                </>
+                <tr key={transaction.id}>
+                  <td width="50%">{transaction.description}</td>
+                  <td>
+                    <PriceHighlight variant={transaction.type}>
+                      {transaction.type === 'outcome' && '- '}
+                      {priceFormatter.format(transaction.price)}
+                    </PriceHighlight>
+                  </td>
+                  <td>{transaction.category}</td>
+                  <td>
+                    {dateFormatter.format(new Date(transaction.createdAt))}
+                  </td>
+                </tr>
               )
             })}
           </tbody>
