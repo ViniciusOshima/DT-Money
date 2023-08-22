@@ -13,9 +13,7 @@ Página para controle de finanças, imprimindo valores como entrada, saída e to
 + modal para adicionar nova transação
 + input de filtro de busca de transações por palavras relacionadas
 
-OBS: Neste projeto está sendo utilizado o JSON-server, uma ferramenta que simula um backend num projeto em desenvolvimento, mas em produção não é possível utilizá-lo. Recomendo instalar o JSON-server como dependência de desenvolvimento durante a utilização desta aplicação
-
-![image](https://github.com/ViniciusOshima/Coffee-Delivery/assets/105689421/27e72a57-ca6c-48e2-859e-dec022c74279)
+OBS: Neste projeto está sendo utilizado o JSON-server, uma ferramenta que simula um backend num projeto em desenvolvimento, mas em produção não é possível utilizá-lo.
 
 ## Tecnologias utilizadas
 
