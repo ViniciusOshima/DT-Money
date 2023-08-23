@@ -1,3 +1,12 @@
 {
-  "transactions": []
+  "transactions": [
+    {
+      "description": "show Lucas Inutilismo",
+      "price": 90,
+      "category": "lazer",
+      "type": "outcome",
+      "createdAt": "2023-08-23T19:41:12.295Z",
+      "id": 1
+    }
+  ]
 }
