@@ -15,6 +15,8 @@ Página para controle de finanças, imprimindo valores como entrada, saída e to
 
 OBS: Neste projeto está sendo utilizado o JSON-server, uma ferramenta que simula um backend num projeto em desenvolvimento, mas em produção não é possível utilizá-lo.
 
+- para ativar o funcionamento do JSON-server, necessário rodar o comando no terminal "npm run dev:server" já configurado.
+
 ## Tecnologias utilizadas
 
 + ReactJS
